@@ -1,0 +1,14 @@
+{
+  "name": "counter_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/counter/index.js",
+  "scripts": {
+    "start": "node src/counter/index.js"
+  },
+  "author": "igorkoliberskiy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

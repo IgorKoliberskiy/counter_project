@@ -1,0 +1,13 @@
+services:
+  library:
+    image: igorkoliberskiy/library:v1.0.0
+    ports:
+      - 3000:3000
+
+  counter:
+    build:
+      context: .
+    ports:
+      - 3001:3000
+    environment:
+      - LIBRARY_URL=library
